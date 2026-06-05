@@ -1,0 +1,168 @@
+body{
+  background:#fabbc3;
+
+  margin:0;
+
+  font-family:"MS PGothic", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.container{
+  display:flex;
+
+  max-width:1000px;
+
+  margin:20px auto;
+}
+
+.menu{
+  width:220px;
+
+  background:#fff;
+
+  border:3px ridge pink;
+
+  padding:15px;
+}
+
+.menu a{
+  display:block;
+
+  margin:10px 0;
+
+  padding:8px;
+
+  text-decoration:none;
+
+  background:#ffd8ea;
+
+  color:#ff3399;
+
+  border:2px outset white;
+}
+
+.content{
+  flex:1;
+
+  margin-left:15px;
+
+  background:white;
+
+  border:3px ridge pink;
+
+  padding:20px;
+}
+
+.menu a{
+  display:block;
+
+  margin:10px 0;
+  padding:8px;
+
+  text-decoration:none;
+
+  background:#ffd8ea;
+  color:#ff3399;
+
+  border-top:2px solid white;
+  border-left:2px solid white;
+  border-right:2px solid #999;
+  border-bottom:2px solid #999;
+}
+
+.menu a:active{
+  transform:translate(2px,2px);
+
+  border-top:2px solid #999;
+  border-left:2px solid #999;
+  border-right:2px solid white;
+  border-bottom:2px solid white;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.gallery{
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:15px;
+}
+
+.gallery img{
+  width:250px;
+
+  height:auto;
+
+  border:3px solid pink;
+}
+
+.gallery img:hover{
+  transform:scale(1.05);
+
+  transition:0.2s;
+}
+
+.entry{
+  background:white;
+
+  border:2px solid pink;
+
+  padding:15px;
+
+  margin-bottom:20px;
+}
+
+.entry h2{
+  border-bottom:1px dashed pink;
+}
+
+.profile{
+  background:white;
+  border:3px ridge pink;
+
+  padding:20px;
+
+  max-width:700px;
+}
+
+.icon{
+  width:120px;
+
+  border:2px solid pink;
+
+  display:block;
+
+  margin-bottom:15px;
+}
+
+table{
+  border-collapse:collapse;
+
+  width:100%;
+}
+
+th, td{
+  border:1px solid pink;
+
+  padding:8px;
+}
+
+th{
+  background:#ffe4f1;
+}
+
+ul{
+  list-style:none;
+
+  padding:0;
+}
+
+li{
+  margin:8px 0;
+}
